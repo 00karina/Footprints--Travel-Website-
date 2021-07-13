@@ -1,0 +1,129 @@
+ body{
+   background-color: lavender;
+ }
+
+ .navbar-brand{
+  color: white;
+text-shadow: 0px -2px 0px #333,
+    0px 2px 3px #666;
+ font-family: Helvetica, Arial, sans-serif;
+
+}
+.navbar{
+  background-color: #003c66;
+  opacity: 90%;
+  
+
+}
+ .read{
+  background-color:orange;
+  color: white;
+  margin-left: 250px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+  border-radius: 5px;
+  
+   box-shadow: 0 9px #999;
+
+}
+ li a {
+ color:white;
+ 
+ font-family:sans-serif;
+ font-style: bold;
+}
+li a:hover {
+  border-bottom: 2px solid orange;
+  color:lavender;
+} 
+.nav-link{
+	margin-right: 20px;
+
+}
+/* This is for image slider */
+.content{
+  height: 350px;
+  width: 500px;
+  overflow: hidden;
+  
+}
+
+.content .images{
+  height: 70%;
+  width: 70%;
+}
+.images img{
+  height: 90%;
+  width: 0%;
+}
+
+
+.col-md-7 h1{
+  padding-left: 80px;
+  color: #003c66;
+  font-family:sans-serif;
+  
+ 
+}
+@media (max-width:576px) {
+  html{
+    font-size: 80%;
+  }
+
+
+  
+.content .images{
+  margin-right: 80px;
+}
+  
+  #foot{
+    font-size: 11px;
+  }
+  #foot h2,p{
+    text-align: center;
+    padding-bottom: 3px;
+  }
+}
+iframe{
+  padding-top: 30px;
+}
+h2,i{
+  padding-left:10px;
+   color: #FF8C00; 
+  font-family:sans-serif;
+}
+.container{
+  padding-top: 30px;
+}
+footer{
+  
+  background-color:#003c66;
+  opacity:90%;
+  color:white;
+  padding-top: 5px;
+  width: 100%;
+}
+footer a{
+  color:white;
+  padding-bottom: 5px;
+}
+footer i{
+   padding-left: 15px;
+   padding-top:5px;
+  
+}
+
+
+.col-md-4 h2{
+  stroke: 1px;
+  text-shadow: 0px -2px 0px #333,
+     0px 2px 3px #666;
+
+  -webkit-text-stroke: 2px black;
+  color: white;
+
+}
+.container hr{
+
+  border: 1px solid white;
+}
